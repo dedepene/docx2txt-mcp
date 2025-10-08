@@ -37,11 +37,18 @@ Verify the install is on your PATH and working:
 
 ```cmd
 gemini --version
+
 ```
 
 Note: The Gemini CLI may require additional setup or authentication depending on how you plan to use it. If you need to authenticate or configure credentials, follow Google's official Gemini CLI documentation.
 
 ## Gemini CLI configuration files (Windows)
+
+Setup the settings file:
+
+```cmd
+fastmcp install gemini-cli server.py
+```
 
 Below is a quick reference for where the Gemini CLI looks for configuration and settings on Windows, and the precedence order used when multiple configuration files are present.
 
