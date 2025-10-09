@@ -28,7 +28,7 @@ def docx_to_txt(
         doc = Document(file_path)
     elif file_content_base64:
         # Use content if provided. FastMCP handles base64-to-bytes conversion for 'bytes' type hint.
-        # Load document from a BytesIO strea                        m
+        # Load document from a BytesIO stream
         doc = Document(io.BytesIO(file_content_base64))
     else:
         raise ValueError("Either file_path or file_content_base64 must be provided.")
